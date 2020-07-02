@@ -1,0 +1,165 @@
+#hero{
+	position: relative;
+}
+#hero video{
+	height:100vh;
+	width:100%;
+	background-position: absolute;
+	background-attachment: fixed;
+	z-index: 10;
+	object-fit: cover;
+	font-family: 'object-fit:cover;';
+}
+#hero .content{
+	background:rgba(0,0,0,0);
+	height: 100%;
+	width: 100%;
+	z-index: 20;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#hero .content h3{
+	color: #3C1053FF;
+	font-weight: 400;
+	font-style:italic;
+	font-family: oldtown;
+}
+.fort{
+	color:white;
+}
+/*.bg-dark {
+    background-color: transparent!important;
+}*/
+.navbar{
+	background-color: #FFC0CB!important;
+	font-family: Verdana !important;
+}
+.navbar-brand
+{
+    position: relative;
+    left: 15px;
+}
+.navbar .navbar-brand{
+	color:#3C1053FF;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+	color:#3C1053FF!important;
+
+}
+.btn{
+	background-color: #3C1053FF;
+	color:#FFC0CB;
+}
+#hero .content h1{
+	font-style:italic;
+	color:#080A52;
+	font-family:oldtown ;
+	font-weight: bold;
+}
+/*.navbar .navbar-toggler{
+	background-color:#3C1053FF;
+}*/
+.outpart h1{
+	color:#080A52;
+	font-family: Florence;
+	/*font-weight: bold;*/
+	text-decoration: underline;
+}
+.outpart{
+	background: white;
+}
+.outpart .pt-2{
+	font-size: 2vw;
+	color:#080A52;
+}
+.outpart .aa{
+	color:#080A52;
+	font-family: oldtown;
+	font-style:italic;
+}
+
+.ParallaxVideo{ 
+height: 70vw;
+width: 100%
+background-repeat: no-repeat;
+background-attachment: fixed;
+padding-bottom: 50px;
+padding-top: 50px; 
+}
+.ParallaxVideo video{ 
+	height:100vh;
+	width:100%;
+	background-position: absolute;
+	background-attachment: fixed;
+	object-fit: cover;
+min-width: 100%;
+position: fixed;
+top:0;
+z-index: -999;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 50%;
+  height: 100%;
+}
+.dog{
+	font-family: oldtown;
+	font-style:italic;
+	 text-decoration-line: underline;
+}
+.ourservices .row{
+	background-color: white;
+}
+.imgsetting{
+	border-radius: 80%;
+	align-items: center;
+	height: 100px;
+	width: 100px;
+
+}
+
+.portfolio{
+	height:1100px
+	width:100%;
+	padding: 50px 50px;
+}
+.portfolio h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+.card{
+	 margin-top: 40px;
+}
+/*footer--------------------*/
+
+
+#to-top {
+display: none;
+position: fixed;
+bottom: 40px;
+right: 20px;
+font-size: 18px;
+border: none;
+outline: none;
+background-color: #304f50;
+color: white;
+padding: 15px;
+border-radius: 14px;
+cursor: pointer;
+z-index: 99;
+}
+#to-top:hover {
+	
+	background-color: #555;
+}
+
+#bottom-footer {
+background-color:cadetblue;
+color:white;
+margin-top: 2rem;
+padding-top: .3rem;
+}
